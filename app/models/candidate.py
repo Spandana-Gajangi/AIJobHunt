@@ -12,3 +12,6 @@ class CandidateProfile:
     target_companies: list[str] = field(default_factory=list)
     work_mode: str | None = None
     resume_path: str | None = None
+    email: str | None = None
+    phone: str | None = None
+    name: str | None = None
