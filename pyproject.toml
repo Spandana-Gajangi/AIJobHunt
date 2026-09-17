@@ -1,0 +1,13 @@
+[project]
+name = "jobhunt"
+version = "0.1.0"
+description = "AI-powered job hunting automation foundation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.111.0",
+  "uvicorn>=0.30.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
